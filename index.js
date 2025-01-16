@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 // Config Files
 const { connectDB } = require('./config/database')
 const authRoutes = require('./routes/auth.routes');
-const taskRoutes = require('./routes/task.routes');
+const taskRoutes = require('./routes/task.route');
 
 // Setting Environment
 const dotenv = require('dotenv')
